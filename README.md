@@ -45,7 +45,7 @@
 
 1.2.5 Дополнительно
   - CORS ошибки <br>
-  ![CORS](https:/github.com/timursk/DevToolsAnalysis/raw/main/Network/addendum/extra1.png)
+  ![CORS](https://github.com/timursk/DevToolsAnalysis/raw/main/Network/addendum/extra1.png)
   ![CORS](https://github.com/timursk/DevToolsAnalysis/raw/main/Network/addendum/extra2.png)
   - Запросы с ошибками <br>
   ![errors](https://github.com/timursk/DevToolsAnalysis/raw/main/Network/addendum/extra3.png)
@@ -54,7 +54,7 @@
 
 ## 2. Pefrormance
 
-### 2.1  Файл загрузки [файл](https://github.com/timursk/DevToolsAnalysis/raw/main/Performance/trace.json)
+### 2.1  Файл загрузки [файл](https://github.com/timursk/DevToolsAnalysis/raw/main/Performance/trace.zip)
 ### 2.2  Dремя в миллисекундах от начала навигации до событий
 - First Paint (FP) 393.4ms <br>
 ![fp](https://github.com/timursk/DevToolsAnalysis/raw/main/Performance/FirstPaint.png)
