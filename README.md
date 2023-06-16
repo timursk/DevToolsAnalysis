@@ -29,6 +29,10 @@
 1.2.2 Лишний размер ресурса
   - Размер >100kb, js не разбит на чанки <br>
   ![superfluous](https://github.com/timursk/DevToolsAnalysis/raw/main/Network/superfluous/superfluous.png)
+  - Грузится большой спрайт 84.7kb, большая часть иконок/картинок не используется. Картинки можно обрезать и загрузить отдельно для экономии размеров файлов. Иконки внизу картинки можно переделать в svg со сменой цвета через css color, для избежания скачивания задублированных картинок с разным цветом. <br>
+  ![superfluous](https://github.com/timursk/DevToolsAnalysis/raw/main/Network/superfluous/superfluous1.png)
+  - Изначальный размер картинки 1280x720, а используется 560x315. Можно сэкономить ~56% от изначального размера, предварительно обрезав картинку <br>
+  ![superfluous](https://github.com/timursk/DevToolsAnalysis/raw/main/Network/superfluous/superfluous2.png)
 
 1.2.3 Медленно загружающиеся ресурсы
   - Долгозагружающиеся запросы с ошибками <br>
