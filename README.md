@@ -128,7 +128,7 @@
   ![superfluous](https://github.com/timursk/DevToolsAnalysis/raw/main/slowdown/Network/superfluous/superfluous2.png)
 
 1.2.3 Медленно загружающиеся ресурсы
-  - Запросы, которые загруэалисб >200ms без замедления. <br>
+  - Запросы, которые загружались >200ms без замедления. <br>
   ![slow requests](https://github.com/timursk/DevToolsAnalysis/raw/main/slowdown/Network/slow/longtime1.png)
 
 1.2.4 Ресурсы, блокирующие загрузку
